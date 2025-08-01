@@ -12,6 +12,7 @@ try:
     for item in contents:
         print(item)
 
+    # Error handling
 except FileNotFoundError:
     print(f"The directory '{directory_path}' was not found.")
 except PermissionError:
